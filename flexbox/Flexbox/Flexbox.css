@@ -1,0 +1,47 @@
+.Container{
+    display: flex;
+    border: 2px solid grey;
+    height: 45vh;
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-flow: column wrap; */
+}
+.ItemOne{
+    order: 1;
+    background-color: red;
+    border: 2px solid black;
+    margin: 12px;
+    width: 122px;
+    height: 122px;
+}
+
+.ItemTwo{
+    order: 2;
+    background-color: red;
+    border: 2px solid black;
+    margin: 12px;
+    width: 122px;
+    height: 122px;
+
+}
+
+.ItemThree{
+    order: 3;
+    background-color: red;
+    border: 2px solid black;
+    margin: 12px;
+    width: 122px;
+    height: 122px;
+
+}
+
+.ItemFour{
+    order: 4;
+    background-color: red;
+    border: 2px solid black;
+    margin: 12px;
+    width: 122px;
+    height: 122px;
+}
